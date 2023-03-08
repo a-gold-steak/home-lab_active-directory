@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<!--
+	Template obtained from Astral by HTML5 UP - html5up.net
+	Edited and formatted by a-gold-steak
+-->
+<html>
+	<head>
+		<title>Home Lab Running AD Docs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#intro" class="icon solid fa-folder"><span>Introduction</span></a>
+						<a href="#ws2022" class="icon solid fa-folder"><span>Windows Server Setup</span></a>
+						<a href="#ubuntu" class="icon solid fa-folder"><span>Added Ubuntu Client</span></a>
+						<a href="#samba" class="icon solid fa-folder"><span>Installed Samba</span></a>
+						<a href="#software" class="icon solid fa-folder"><span>Deployed Software</span></a>
+						<a href="#ssh" class="icon solid fa-folder"><span>Enabled SSH on Clients</span></a>
+						<a href="#acadd" class="icon solid fa-folder"><span>AC and Others</span></a>
+						<a href="#folderedir" class="icon solid fa-folder"><span>Deployed Folder Redir</span></a>
+						<a href="#print" class="icon solid fa-folder"><span>Deployed Print Server</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>a-gold-steak</h1>
+									<p>Home Lab Running AD - Documentation</p>
+								</header>
+								<a href="#intro" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/pc.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Introduction -->
+							<article id="intro" class="panel">
+								<header>
+									<h2>Introduction</h2>
+								</header>
+								<p>
+									This part of the project gives a brief overview on what was completed on this project and  
+									how to create a VM. 
+								</p>
+								<section>
+									<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/1_Introduction.pdf" width="100%" height="800px"></iframe>
+								</section>
+							</article>
+
+						<!-- WS 2022 Setup -->
+						<article id="ws2022" class="panel">
+							<header>
+								<h2>Windows Server 2022 Setup</h2>
+							</header>
+							<p>
+								In this section, I go over installing Windows Server 2022, setting up the network, creating a domain,
+								creating an admin account, installing RAS and NAT, DHCP setup, a PowerShell script, and adding a Windows 10
+								Client to the domain.
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/2_Windows Server 2022 Setup.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+						
+						
+						<!-- Ubuntu Client to Domain -->
+						<article id="ubuntu" class="panel">
+							<header>
+								<h2>Added an Ubuntu Client to the Domain</h2>
+							</header>
+							<p>
+								This section demonstrates how to add an Ubuntu client to the domain. There was two Linux clients added to the domain. 
+								One is an Ubuntu client, the other is a Kali client for pentesting purposes.
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/3_Added an Ubuntu Client to Domain.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+
+						<!-- Installed Samba -->
+						<article id="samba" class="panel">
+							<header>
+								<h2>Installed Samba File Server</h2>
+							</header>
+							<p>
+								Here, I installed a Samba file server for file sharing. The Samba file server was hosted on the DC. Note, It is recommended to install 
+								a file server on a seperate server for security and performance purposes. This is just a demonstration.
+
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/4_Installed Samba File Server(for file sharing).pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+
+						<!-- Deployed Software -->
+						<article id="software" class="panel">
+							<header>
+								<h2>Deployed Software to Clients with a GPO</h2>
+							</header>
+							<p>
+								In this section, I deployed software to Windows clients. In this demonstration, a Google Chrome .msi file was deployed.
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/5_Deployed Software With a GPO.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+
+						<!-- Enabled SSH -->
+						<article id="ssh" class="panel">
+							<header>
+								<h2>Enabled SSH of Devices</h2>
+							</header>
+							<p>
+								This section demonstrates how to enable SSH on all the clients. SSH can be used to access a device remotely and securely. 
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/6_Enabled SSH.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+
+						<!-- Access Controls and Other -->
+						<article id="acadd" class="panel">
+							<header>
+								<h2>Access Controls and Other Additions</h2>
+							</header>
+							<p>
+								In this part of the project, access controls were implemented as well as other minor additions that
+								would make a sys admin's life easier. Some of these additions are blocking an application from use,
+								file system quotas, and disabling the registry. 
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/7_Access Controls and Other Additions.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+
+						<!-- Folder Redirection -->
+						<article id="folderedir" class="panel">
+							<header>
+								<h2>Deployed Folder Redirection for Windows Clients</h2>
+							</header>
+							<p>
+								This section demonstrates how to implement folder redirection for Windows clients. I installed the server to
+								host the users files on the DC. Again, it is recommended to be installed on a seperate server. 
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/8_Deployed Folder Redirection for Windows Clients.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+
+						<!-- Print Server -->
+						<article id="print" class="panel">
+							<header>
+								<h2>Deployed Network-Wide Print Server</h2>
+							</header>
+							<p>
+								In this section, I installed a network-wide print server. The printer used was a network-only printer which did make 
+								implementation rather difficult, regardless, the printer was successfully deployed to the network.
+							</p>
+							<section>
+								<iframe src="https://a-gold-steak.github.io/home-lab_active-directory/9_Deployed Network-Wide Print Server.pdf" width="100%" height="800px"></iframe>
+							</section>
+						</article>
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; a-gold-steak.</li><li>Thanks for Visiting!</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
