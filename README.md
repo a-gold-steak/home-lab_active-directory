@@ -27,7 +27,7 @@ I'm no AD expert and do apologize in advance if there are any mistakes. But ther
 - As someone who is interested in the cloud, the addition of Azure's Active Directory would've been neat. Azure AD can be used to give clients access to Office365 or any of the many cloud applications available like Slack, Adobe's Creative Cloud, and Mailchimp 
 
 ## Acknowledgements
-- [Josh Madakor](https://www.youtube.com/@JoshMadakor)
+- [Josh Madakor](https://www.youtube.com/@JoshMadakor/videos)
 - [MSFT Webcast](https://www.youtube.com/c/MSFTWebCast)
 - The [r/sysadmin](https://www.reddit.com/r/sysadmin/) subreddit
 - Big thanks to [Stack OverFlow](https://stackoverflow.com/) for helping me fix my silly problems
