@@ -24,5 +24,13 @@ I'm no AD expert and do apologize in advance if there are any mistakes. But ther
 - An addition of a second server would've been helpful to see how it would integrate into the network. This server could've been used to store the file shares or even updates
 - I would've liked to have deployed different types of software. Not everything is able to be deployed smoothly and easily.(e.g. executable files)
 - The addition of roaming profiles for clients would be helpful in case more clients are added
-- As someone who is interested in the cloud, the addition of Azure's Active Directory would've been neat. Azure AD can be used to give clients access to Office365 or any of the many cloud applications available like Slack, Adobe's Creative Cloud, and Mailchimp  
+- As someone who is interested in the cloud, the addition of Azure's Active Directory would've been neat. Azure AD can be used to give clients access to Office365 or any of the many cloud applications available like Slack, Adobe's Creative Cloud, and Mailchimp 
+
+## Acknowledgements
+- [Josh Madakor](https://www.youtube.com/@JoshMadakor)
+- [MSFT Webcast](https://www.youtube.com/c/MSFTWebCast)
+- The [r/sysadmin](https://www.reddit.com/r/sysadmin/) subreddit
+- Big thanks to [Stack OverFlow](https://stackoverflow.com/) for helping me fix my silly problems
+- Website Template based on [Astral](https://html5up.net/astral) by [@ajkin](https://aj.lkn.io/)
+
 
